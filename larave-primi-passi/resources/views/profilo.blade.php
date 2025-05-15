@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home </title>
+    <title>profilo</title>
 </head>
 <body>
-    <nav>
+     <nav>
         <ul>
             <li>
                 <a href="{{ route("home") }}">homepage</a>
@@ -18,7 +18,6 @@
             </li>
         </ul>
     </nav>
-    <h1>hello word</h1>
-<p> {{$informazioni}} </p>
+    <h1>profilo</h1>
 </body>
 </html>
